@@ -1,19 +1,28 @@
 header h1{
   padding-bottom: 1rem;
+  display: flex;
+  justify-content: center;
 }
 
 li{
   list-style:none;
   display: inline-block;
+  padding: 5px;
 }
 
 img{
   width: 50px;
   height: 50px;
-  border-radius: 50px;
-  padding: 9px;
+  border-radius: 20px;
+  padding: 9px 9px;
   background: var(--roxo);
   object-fit: contain;
+}
+
+img:hover{
+  -webkit-transform: scale(1.5);
+  -ms-transform: scale(1.1);
+  transform: scale(1.3);
 }
 
 a{
@@ -23,4 +32,6 @@ a{
 header h3{
   font-family: 'Lato', sans-serif;
   font-size: 15px;
+  display: flex;
+  justify-content: center;
 }

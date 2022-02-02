@@ -5,11 +5,14 @@
 }
 
 body,html{
-  background: var(--roxo-claro);
   max-width: 100vw;
   min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
   font-family: 'Source Sans Pro', sans-serif;
+  background-image: url(../imagens/Synthwave\ 4k\ Ultra\ HD\ Wallpaper\ _\ Background\ Image\ _\ 3840x2160.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
