@@ -1,0 +1,21 @@
+.email input{
+  width: 250px;
+  height: 40px;
+  border-radius: 10px;
+}
+
+.senha input{
+  width: 250px;
+  height: 40px;
+  border-radius: 10px;
+}
+
+.content a{
+  text-decoration: none;
+  color: var(--roxo);
+}
+
+.content{
+  display: flex;
+  padding: 5px;
+}

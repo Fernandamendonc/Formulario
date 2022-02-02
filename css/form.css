@@ -1,0 +1,13 @@
+.form{
+  padding: 2rem;
+  background: var(--branco);
+  border-radius: 1rem;
+  max-width: 200vw;
+  max-height: 200vh;
+  width: 350px;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
